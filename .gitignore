@@ -1,0 +1,14 @@
+# binaries
+/example
+/bin/
+*.exe
+
+# env / secrets — never commit keys
+.env
+.env.*
+*.env
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
